@@ -1,4 +1,4 @@
-def unsafe?(speed)
+def unsafe?(sped)
   speed = gets.chomp
   if speed < 40 || speed > 60
     return true
