@@ -7,6 +7,6 @@ def unsafe?(speed)
 end
 
 def not_safe?(speed)
-  speed = gets.chompdasa12
+  speed = gets.chomp
   speed < 40 || speed > 60 : true ? false
 end
